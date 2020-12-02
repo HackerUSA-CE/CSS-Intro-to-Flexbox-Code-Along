@@ -1,4 +1,8 @@
-// 
+// A quick way to manipulate this activity for testing out simpler and more complex layouts
+
+// not needed for the activity, but useful for considering updates/changes
+
+
 // const h3s = document.querySelectorAll('h3')
 // const h4s = document.querySelectorAll('h4')
 // const cards = document.querySelectorAll('.cards')
