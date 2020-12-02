@@ -1,0 +1,34 @@
+/* aside {
+  flex-basis: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+nav {
+  display: none;
+}
+/* section {
+  flex-basis: 80%;
+} */
+ * {
+  border: 1px solid teal;
+}
+
+/* aside, nav {
+  border: 1px solid teal;
+} */
+
+/* section {
+  display: flex;
+  flex-wrap: wrap; */
+  /* justify-content: center; */
+  /* justify-content: space-around; */
+  /* justify-content: space-between; */
+  /* justify-content: space-evenly;
+} */
+
+/* .container {
+  display: flex;
+  justify-content: space-around;
+} */
