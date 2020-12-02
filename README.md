@@ -23,16 +23,17 @@ Let's open our code and see what is there
  - complete `index.html`
   - Web page structure:
 
-  - all elements are wrapped in a div with a class of wrapper.
-  -  Within the wrapper:
-   - h1 tag
-   - main with a class of container
-    - main has two elements
-      - aside (that has a navigation and unordered list)
-      - section (that contains our 'cards')
+    - all elements are wrapped in a div with a class of wrapper.
+    -  Within the wrapper:
+    - h1 tag
+    - main with a class of container
+      - main has two elements
+        - aside (that has a navigation and unordered list)
+        - section (that contains our 'cards')
 
  - `code-along.css` : this is where we will do all our work
 
+**Note**: the `nav` display is set to `none`. We are going to style it later, so we can just hide it for now. We can confirm our CSS is linked by checking that the nav HTML elements do not appear on our page.
 
 Firstly, the images are massive. Let's write a temporary rule to keep them small
 
@@ -42,8 +43,6 @@ img {
   height: 125px;
 }
 ```
-
-Note: the `nav` display is set to `none`. We are going to style it later, so we can just hide it for now.
 
 Add a universal rule to draw a gold (easier to remember 1px solid gold) or teal (easier to see) border around every element.
 
@@ -56,9 +55,6 @@ Add a universal rule to draw a gold (easier to remember 1px solid gold) or teal 
 Our page should look (more or less) like this. There might be some minor differences based on your browser & size of your browser.
 
 ![](./assets/images/code-along-start.png)
-
-
-For now, our navigation has a display none, so we can focus styling our cards first.
 
 We will see that each of our `cards` that has an image, an h3 tag and an anchor tag inside an h4 tag and they are block elements.
 
